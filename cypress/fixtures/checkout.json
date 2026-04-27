@@ -1,0 +1,13 @@
+{
+  "usuario": "standard_user",
+  "password": "secret_sauce",
+  "cliente": {
+    "nombre": "Mateo",
+    "apellido": "Perez",
+    "codigoPostal": "170150"
+  },
+  "productos": [
+    "Sauce Labs Backpack",
+    "Sauce Labs Bike Light"
+  ]
+}

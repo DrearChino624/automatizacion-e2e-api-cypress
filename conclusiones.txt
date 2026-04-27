@@ -1,0 +1,9 @@
+CONCLUSIONES Y HALLAZGOS
+
+1. En la prueba E2E de Sauce Labs se pudo automatizar el flujo solicitado desde la autenticacion hasta la confirmacion de la orden.
+2. El sitio usa atributos data-test en los controles principales, lo que permite crear selectores mas estables para la automatizacion.
+3. Se verifico que el carrito muestre exactamente dos productos antes de continuar con el checkout.
+4. La confirmacion final esperada se valida con el texto: Thank you for your order!
+5. Para API se uso Swagger Petstore porque permite ejecutar un ciclo completo de usuario: creacion, consulta, actualizacion, nueva consulta y eliminacion.
+6. Las respuestas principales de API se guardan en archivos JSON dentro de reports para dejar evidencia de entradas y salidas.
+7. La ejecucion depende de la disponibilidad de los sitios externos, por lo que un fallo de red o una caida del servicio puede afectar el resultado aunque el script este correcto.

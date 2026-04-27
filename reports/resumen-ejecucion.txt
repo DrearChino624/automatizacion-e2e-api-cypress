@@ -1,0 +1,32 @@
+RESUMEN DE EJECUCION
+
+Fecha de ejecucion local: 26/04/2026
+Herramienta: Cypress 13.17.0
+Navegador usado por Cypress: Electron headless
+
+Resultado general:
+- Total de specs ejecutados: 2
+- Total de pruebas: 2
+- Pruebas exitosas: 2
+- Pruebas fallidas: 0
+
+Specs ejecutados:
+1. cypress/e2e/petstore-usuario-api.cy.js
+   Resultado: exitoso
+   Duracion aproximada: 4 segundos
+   Evidencia generada:
+   - reports/videos/petstore-usuario-api.cy.js.mp4
+   - reports/api-crear-usuario.json
+   - reports/api-buscar-usuario.json
+   - reports/api-actualizar-usuario.json
+   - reports/api-buscar-usuario-actualizado.json
+   - reports/api-eliminar-usuario.json
+
+2. cypress/e2e/sauce-labs-compra.cy.js
+   Resultado: exitoso
+   Duracion aproximada: 13 segundos
+   Evidencia generada:
+   - reports/videos/sauce-labs-compra.cy.js.mp4
+
+Observacion:
+La ejecucion se realizo correctamente contra los servicios externos Sauce Demo y Swagger Petstore.

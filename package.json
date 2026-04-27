@@ -1,0 +1,14 @@
+{
+  "name": "automatizacion-e2e-api-cypress",
+  "version": "1.0.0",
+  "description": "Ejercicio de automatizacion E2E y API usando Cypress",
+  "scripts": {
+    "cy:open": "cypress open",
+    "test": "cypress run",
+    "test:e2e": "cypress run --spec cypress/e2e/sauce-labs-compra.cy.js",
+    "test:api": "cypress run --spec cypress/e2e/petstore-usuario-api.cy.js"
+  },
+  "devDependencies": {
+    "cypress": "^13.17.0"
+  }
+}
